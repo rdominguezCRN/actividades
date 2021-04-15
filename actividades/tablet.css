@@ -1,0 +1,88 @@
+@media screen and (max-width: 1067px){
+body{
+  background-image: url(fondo.png);
+}
+
+#header{
+  height: 100px;
+  background-color: #f0ad4e;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.triangulo-abajo{
+  width: 100px;
+  height: 100px;
+  margin-top: 0px;
+  margin-left: 0px;
+  border-left: 100px solid #f0ad4e;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  transform: rotate(-90deg);
+  position: relative;
+}
+
+.triangulo-arriba{
+  width: 100px;
+  height: 100px;
+  margin-top: 0px;
+  margin-left: 0px;
+  border-left: 100px solid #f0ad4e;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  transform: rotate(90deg);
+  position: relative;
+}
+
+#uno{
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+#dos{
+  float: right;
+  margin-left: 150px;
+  margin-top: -300px;
+}
+
+#tres{
+  float: right;
+  margin-right: 950px;
+  margin-top: -200px;
+}
+
+#cuatro{
+  float: right;
+  margin-right: 650px;
+  margin-top: -300px;
+}
+
+#cinco{
+  float: right;
+  margin-right: 350px;
+  margin-top: -200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
