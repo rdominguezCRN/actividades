@@ -1,0 +1,122 @@
+@media screen and (max-width: 424px){
+body{
+  background-image: url(fondo.png);
+  font-family: 'Oswald', sans-serif;
+}
+
+p{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+  position: relative;
+  font-family: 'Oswald', sans-serif;
+}
+
+#header{
+  height: 50px;
+  width: auto;
+  background-color: #f0ad4e;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.triangulo-abajo{
+  width: 50px;
+  height: 50px;
+  border-left: 100px solid #f0ad4e;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  transform: rotate(-90deg);
+  position: relative;
+}
+
+.triangulo-arriba{
+  width: 50px;
+  height: 50px;
+  border-left: 100px solid #f0ad4e;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  transform: rotate(90deg);
+  position: relative;
+}
+
+.triangulo-abajo:hover{
+  opacity: 50%;
+  transform: rotate(270deg);
+  transition: 3s;
+}
+
+.triangulo-arriba:hover{
+  opacity: 50%;
+  transform: rotate(450deg);
+  transition: 3s;
+}
+
+#uno{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#dos{
+  float: left;
+  margin-left: 200px;
+  margin-top: -200px;
+}
+
+#tres{
+  margin-left: 50px;
+  margin-top: -50px;
+}
+
+#cuatro{
+  float: left;
+  margin-left: 200px;
+  margin-top: -100px;
+}
+
+#cinco{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#seis{
+  float: left;
+  margin-left: 200px;
+  margin-top: -200px;
+}
+
+#siete{
+  margin-left: 50px;
+  margin-top: -50px;
+}
+
+#ocho{
+  float: left;
+  margin-left: 200px;
+  margin-top: -100px;
+}
+
+#nueve{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#diez{
+  float: left;
+  margin-left: 200px;
+  margin-top: -200px;
+}
+
+#Pt1{
+  margin-left: -150px;
+  margin-top: -80px;
+  transform: rotate(270deg);
+}
+
+#Pt2{
+  margin-left: -150px;
+  margin-top: 92px;
+  transform: rotate(90deg);
+}
+}
